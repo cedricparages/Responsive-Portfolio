@@ -108,3 +108,60 @@
       color: #777777;
       text-decoration: none;
   }
+
+  @media only screen and (min-width: 980px) {
+
+    .TextWrap {
+        float: none;
+      height: auto;
+    }
+  
+        body { 
+            margin: 0 auto; 
+        }
+  
+    /* portfolio page - make the examples in one column */
+  
+    #content {
+      float: center;
+      width: 100%;
+    }
+  
+  }
+  
+  @media only screen and (max-width: 979px) and (min-width: 768px) {
+    #content {
+      max-width: 700px;
+      max-width: 100%;
+    }
+  
+      body { 
+          margin: 0 auto; 
+    }
+  
+      .TextWrap {
+          width: 50%;
+      }
+  
+  }
+  
+  @media only screen and (max-width: 767px) and (min-width: 640px) {
+    #content {
+      max-width: 600px;
+      max-width: 100%;
+    }
+  
+      body { 
+          margin: 0 auto; 
+    }
+  
+    .TextWrap {
+          width: 50%;
+      }
+  }
+  
+  @media only screen and (max-width: 639px) {
+    #content {
+      max-width: 500px;
+    }
+}
