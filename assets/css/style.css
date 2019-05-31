@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  body {
+      font-size: 24px;
+      line-height: 32px;
+      color: #ffffff;
+      background-image: url("../images/GravelBackground.png");
+  }
+  #header {
+      width: 100%;
+      background-color: #ffffff;
+      overflow: auto;
+      border-style: none none solid none;
+      border-bottom-color: #cccccc;
+      font-family: 'Arial';
+      font-size: 18px;
+      color: #777777;
+  }
+  aside {
+      float: left;
+      width: 30%;
+      margin-left: 150px;
+      padding: 10px;
+      background-color: #4aaaa5;
+      color: #ffffff;
+      text-align: center;
+      font-family: 'Georgia';
+      font-size: 28px;
+  }
+  nav {
+      float: bottom;
+      text-decoration: none;
+      font-family: 'Arial';
+      font-size: 22px;
+      color: #777777;
+      margin: auto;
+      margin-top: 10px;
+  }
+  #content {
+      background-color: #ffffff;
+      overflow: auto;
+      width: 100%;
+      max-width: 960px;
+      margin: auto;
+      margin-top: 50px;
+      border: 1px solid #dddddd;
+  }
+  h2 {
+      font-family: "Georgia";
+      float: top;
+      text-align: left;
+      font-size: 26px;
+      border-style: none none solid none;
+      border-bottom-color: #cccccc;
+      color: #4aaaa5;
+      background-color: #ffffff;
+      margin-left: 10px;
+  }
+  p {
+      text-align: left;
+      font-family: 'Arial';
+      font-size: 16px;
+      color: #777777;
+  }
+  button {
+      background-color: #4aaaa5;
+      color: #ffffff;
+      font-size: 14px;
+      font-family: 'Arial';
+      padding: 20px;
+      text-align: left;
+      float: left;
+  }
+  h3 {
+      font-family: "Georgia";
+      border-style: none none solid none;
+      border-bottom-color: #cccccc;
+      color: #4aaaa5;
+      font-size: 18px;
+  }
+  div {
+      text-align: center;
+  }
+  footer {
+      background-color: #666666;
+      padding: 20px;
+      clear: both;
+      font-family: "Arial";
+      font-size: 10px;
+      color: #ffffff;
+      border-style: solid none none none;
+      border-top-color: #4aaaa5;
+      border-width: 8px;
+      width: 100%;
+      margin-top: 40px;
+  }
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+  }
+  li {
+      display: inline;
+      margin: 20px;
+      color: #777777;
+      text-decoration: none;
+  }
